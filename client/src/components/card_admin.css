@@ -1,0 +1,70 @@
+.card_admin{
+    width: 22rem ;
+    height: auto;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 22px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.nome_prodotto{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.descrizione{
+    font-size: 20px;
+}
+
+.prezzo{
+    font-size: 30px;
+}
+
+.BOTTONI{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_elimina_prodotto{
+    border-radius: 12px;
+    border-color:rgb(255, 0, 0);
+    height: 45px;
+    width: 90px;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn_elimina_prodotto:hover{
+    border-color: aliceblue;
+    background-color:rgb(255, 0, 0);
+    color:aliceblue;
+    text-decoration: underline;
+}
+
+.btn_modifica_prodotto{
+    border-radius: 12px;
+    border-color:darkcyan;
+    height: 45px;
+    width: 90px;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkcyan;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 12%;
+    margin-right: 25%;
+}
+
+.btn_modifica_prodotto:hover{
+    border-color: aliceblue;
+    background-color:darkcyan;
+    color:aliceblue;
+    text-decoration: underline;
+}
+

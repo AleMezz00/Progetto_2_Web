@@ -1,0 +1,74 @@
+
+.scroll_transazioni{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 97vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://wallpaperaccess.com/full/1306125.jpg);
+  background-attachment: fixed;
+  }
+    
+nav {
+  height: 55px;
+  background-color: #fe6e06;
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:aliceblue;
+  }
+  
+nav ul {
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+    
+nav li {
+  display: inline;
+  text-align: right;
+  flex: 1;
+  margin-right: 15px;
+}
+    
+.btn_torna_menu {
+  border: none;
+  background-color: #fe6e06;
+  display: inline-block;
+  font-size: 1.02rem;
+  color: white;
+  margin-right: 2%;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.btn_torna_menu{
+  cursor: pointer;
+  text-decoration: underline;
+}
+    
+.scritta_transazioni{
+  margin-top: 5px;
+  margin-left: 41%;
+  font-size: 43px;
+}
+  
+.footer_carrello{
+  height: 20px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.contenitore_ordine{
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: aliceblue ;
+  border-radius: 15px;
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+.contenitore_ordine::-webkit-scrollbar{
+  display: none;
+}

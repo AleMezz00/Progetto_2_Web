@@ -1,0 +1,100 @@
+.scroll{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://wallpaperaccess.com/full/1306125.jpg);
+    background-attachment: fixed;
+  
+  }
+
+
+  .schermata_admin ::-webkit-scrollbar{
+      display: none;
+    }
+    
+    nav {
+      height: 55px;
+      background-color: #fe6e06;
+      display: flex;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color:aliceblue;
+    }
+  
+    nav ul {
+      list-style-type: none;
+      flex: 2;
+      display: flex;
+    }
+    
+    nav li {
+      display: inline;
+      text-align: right;
+      flex: 1;
+      margin-right: 15px;
+    }
+    
+    .scritta_logout{
+      display: inline-block;
+      font-size: 1.02rem;
+      color: white;
+      margin-right: 3%;
+      font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    
+    .scritta_Menu{
+      margin-top: 5px;
+      margin-left: 46%;
+      font-size: 43px;
+    }
+    
+  .riga{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .btn_aggiungi_prodotto_admin{
+    border-radius: 30px;
+    border-color: aliceblue;
+    height: 50px;
+    width: 280px;
+    font-size:25px;
+    font: bold;
+    background-color:rgb(23, 214, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5%;
+  }
+  
+  .btn_aggiungi_prodotto_admin:hover{
+    text-decoration: underline;
+  }
+
+  .btn_visualizza_transazioni{
+    border-radius: 30px;
+    border-color: aliceblue;
+    height: 50px;
+    width: 280px;
+    font-size:25px;
+    font: bold;
+    background-color:indigo;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+    cursor: pointer;
+    margin-right: 1%;
+  }
+  
+  .btn_visualizza_transazioni:hover{
+    text-decoration: underline;
+  }
+  
+  .Aggiungi{
+    margin-top: 10px;
+    margin-left: 15px;
+  }

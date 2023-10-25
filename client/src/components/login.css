@@ -1,0 +1,94 @@
+ .Login{
+  margin:0;
+  padding: 0;
+  height:97vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://wallpaperaccess.com/full/1306125.jpg);
+ }
+ 
+nav {
+  height: 55px;
+  background-color: #fe6e06;
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:aliceblue;
+}
+  
+.scritta_effettua_accesso{
+  margin-left: 42%;
+  margin-top: 15px;
+}
+  
+nav ul {
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+  
+nav li {
+  display: inline;
+  text-align: right;
+  flex: 1;
+  margin-right: 15px;
+}
+  
+nav a {
+  display: inline-block;
+  font-size: 1.02rem;
+  color: white;
+  margin-right: 2%;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+  
+.Container_principale{
+  background-color: #fff;
+  border-radius: 12px;
+  color: black;
+  padding: 35px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  width: 25%;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 16%);
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 35%; 
+}
+  
+footer{
+  height: 1vh;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.form-group{
+  margin-bottom: 15px;
+  margin-left: 36px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-group-password{
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+  border-radius: 10px;
+  margin-top: 5px;
+  height: 35px;
+  width: 95px;
+  background-color: #fe6e06;
+  color: aliceblue;
+  border: #fff;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer; 
+}
+
+input{
+  height: 25px;
+  width: 150px;
+  font-size: small;
+}

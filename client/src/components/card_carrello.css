@@ -1,0 +1,49 @@
+.card_carrello{
+    width: 25rem ;
+    height: auto;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 22px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.nome_prodotto_carrello{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.descrizione_carrello{
+    font-size: 20px;
+}
+
+.prezzo_carrello{
+    font-size: 30px;
+}
+
+.BOTTONI_carrello{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_rimuovi_prodotto_carrello{
+    border-radius: 12px;
+    border-color:rgb(255, 0, 0);
+    height: 45px;
+    width: 90px;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 37.5%;
+}
+
+.btn_rimuovi_prodotto_carrello:hover{
+    border-color: aliceblue;
+    background-color:rgb(255, 0, 0);
+    color:aliceblue;
+    text-decoration: underline;
+}
